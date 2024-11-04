@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter Run",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart", // or any other entry point
+      "args": ["--debug", "--web-port", "3000"]
+    },
+    {
+      "name": "Flutter Debug",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["--debug", "--web-port", "3000"]
+    },
+    {
+      "name": "Flutter Profile",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["--profile", "--web-port", "3000"]
+    }
+  ]
+}
